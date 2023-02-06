@@ -5,7 +5,6 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Header from "./Header";
 import styled from "styled-components";
-import Hero from "../components/Hero";
 
 const name = "Your Name";
 export const siteTitle = "Next.js Sample Website";
@@ -41,7 +40,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header></Header>
-      <Hero />
+
       {/* {home ? (
           <>
             <Image

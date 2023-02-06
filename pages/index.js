@@ -4,8 +4,9 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Date from "../components/date";
 import styled from "styled-components";
-
-const StyledHeader = styled.h1`
+import Hero from "../components/Hero";
+import BestStories from "../components/BestStories";
+const HeaderStyles = styled.h1`
   color: red;
 `;
 
@@ -28,7 +29,9 @@ export default function Home({ allPostsData }) {
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
-        <StyledHeader>sc</StyledHeader>
+        <HeaderStyles>sc</HeaderStyles>
+        <Hero />
+        <BestStories />
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
