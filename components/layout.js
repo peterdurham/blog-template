@@ -13,6 +13,7 @@ const LayoutStyles = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap");
   font-family: "Inter", sans-serif;
 
+  overflow: hidden;
   padding: 0 5vw;
   margin: 0rem auto 6rem;
 

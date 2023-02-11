@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const CardLargeWrapper = styled.div`
 width: 350px;
-margin: 16px;
+margin-right: 16px;
 
 .card-image {
   height: 420px;
