@@ -10,11 +10,11 @@ const name = "Your Name";
 export const siteTitle = "Next.js Sample Website";
 
 const LayoutStyles = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap");
   font-family: "Inter", sans-serif;
 
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  padding: 0 5vw;
+  margin: 0rem auto 6rem;
 
   .backToHome {
     margin: 3rem 0 0;
